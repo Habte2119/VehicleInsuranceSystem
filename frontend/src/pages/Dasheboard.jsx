@@ -1886,7 +1886,7 @@ export default function Dashboard() {
                             </div>
                             <div className="flex flex-wrap gap-2.5 pt-1">
                               {docs.map((docUrl, idx) => {
-                                const fullUrl = docUrl.startsWith("http") ? docUrl : `http://localhost:3000${docUrl}`;
+                                const fullUrl = docUrl.startsWith("http") ? docUrl : `${docUrl.startsWith("/") ? "" : "/"}${docUrl}`;
                                 const isImage = /\.(jpg|jpeg|png|webp|gif)$/i.test(docUrl);
 
                                 return (
@@ -3155,7 +3155,7 @@ export default function Dashboard() {
                       </div>
                       <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                         {claimForm.supportingDocuments.map((docUrl, idx) => {
-                          const fullUrl = docUrl.startsWith("http") ? docUrl : `http://localhost:3000${docUrl}`;
+                          const fullUrl = docUrl.startsWith("http") ? docUrl : `${docUrl.startsWith("/") ? "" : "/"}${docUrl}`;
                           const isImage = /\.(jpg|jpeg|png|webp|gif)$/i.test(docUrl);
 
                           return (
@@ -3464,7 +3464,7 @@ export default function Dashboard() {
                   </div>
                   <div className="flex flex-wrap gap-2.5 pt-1">
                     {docs.map((docUrl, idx) => {
-                      const fullUrl = docUrl.startsWith("http") ? docUrl : `http://localhost:3000${docUrl}`;
+                      const fullUrl = docUrl.startsWith("http") ? docUrl : `${docUrl.startsWith("/") ? "" : "/"}${docUrl}`;
                       const isImage = /\.(jpg|jpeg|png|webp|gif)$/i.test(docUrl);
 
                       return (

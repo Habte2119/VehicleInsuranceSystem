@@ -48,7 +48,12 @@ app.use(
   })
 );
 //helmet is a security middleware that helps you protect your app by setting various Http headers
-app.use(helmet({ crossOriginResourcePolicy: { policy: "cross-origin" } }));
+app.use(
+  helmet({
+    contentSecurityPolicy: false,
+    crossOriginResourcePolicy: { policy: "cross-origin" },
+  })
+);
 //log the request
 app.use(morgan("dev"));
 //serve uploaded files and documents statically
