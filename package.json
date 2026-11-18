@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon backend/server.js",
     "start": "node backend/server.js",
-    "build": "npm install --include=dev --prefix frontend && npm run build --prefix frontend && npx prisma generate",
+    "build": "npm install && npm install --include=dev --prefix frontend && npm run build --prefix frontend && prisma generate",
     "set-admin": "node backend/scripts/setAdmin.js"
   },
   "keywords": [],
