@@ -1,0 +1,57 @@
+[
+  {
+    "id": "INQ-2026-22421",
+    "name": "Yene",
+    "email": "sishabte809@gmail.com",
+    "phone": "+251910611602",
+    "subject": "to testing",
+    "message": "do u recive me",
+    "status": "new",
+    "createdAt": "2026-11-13T11:42:36.414Z",
+    "updatedAt": "2026-11-13T11:42:36.414Z"
+  },
+  {
+    "id": "INQ-2026-18852",
+    "name": "Helen Desta",
+    "email": "helen@example.com",
+    "phone": "+251911998877",
+    "subject": "Fleet Commercial Coverage",
+    "message": "We have 4 company vehicles and need a combined commercial policy.",
+    "status": "new",
+    "createdAt": "2026-11-13T10:58:01.512Z",
+    "updatedAt": "2026-11-13T10:58:01.512Z"
+  },
+  {
+    "id": "INQ-2026-60653",
+    "name": "Helen Desta",
+    "email": "helen@example.com",
+    "phone": "+251911998877",
+    "subject": "Fleet Coverage Inquiry",
+    "message": "We have 4 company vehicles and need a combined commercial policy.",
+    "status": "new",
+    "createdAt": "2026-11-13T10:55:43.211Z",
+    "updatedAt": "2026-11-13T10:55:43.211Z"
+  },
+  {
+    "id": "INQ-2026-25064",
+    "name": "Abebe Kebede",
+    "email": "abebe@example.com",
+    "phone": "+251911223344",
+    "subject": "Plan Question",
+    "message": "Is roadside included in standard plan?",
+    "status": "new",
+    "createdAt": "2026-11-13T10:54:55.426Z",
+    "updatedAt": "2026-11-13T10:54:55.426Z"
+  },
+  {
+    "id": "INQ-2026-06785",
+    "name": "Test Driver",
+    "email": "driver@example.com",
+    "phone": "+251912345678",
+    "subject": "Policy Question",
+    "message": "I would like to know if glass coverage is included.",
+    "status": "new",
+    "createdAt": "2026-11-13T10:54:18.619Z",
+    "updatedAt": "2026-11-13T10:54:18.621Z"
+  }
+]
