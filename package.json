@@ -30,7 +30,8 @@
     "pdfkit": "^0.17.1",
     "prisma": "^6.5.0",
     "resend": "^4.2.0",
-    "stripe": "^18.2.1"
+    "stripe": "^18.2.1",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@types/pdfkit": "^0.17.2",
