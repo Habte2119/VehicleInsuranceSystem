@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import api from "../lib/axios";
+import ThemeToggle from "../components/ThemeToggle";
 
 export default function Register() {
   const navigate = useNavigate();
@@ -107,10 +108,15 @@ export default function Register() {
 
       <section className="auth-form-panel">
         <div className="auth-form-wrap">
-          <Link to="/" className="auth-mobile-logo">
-            <span className="auth-logo-icon">V</span>
-            VIMS
-          </Link>
+          <div className="flex items-center justify-between mb-4">
+            <Link to="/" className="auth-mobile-logo" style={{ marginBottom: 0 }}>
+              <span className="auth-logo-icon">V</span>
+              VIMS
+            </Link>
+            <div className="ml-auto">
+              <ThemeToggle size="sm" />
+            </div>
+          </div>
 
           <div className="auth-heading">
             <span className="auth-eyebrow">CREATE AN ACCOUNT</span>

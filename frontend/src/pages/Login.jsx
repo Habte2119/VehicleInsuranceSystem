@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import useAuthStore from "../store/authStore";
+import ThemeToggle from "../components/ThemeToggle";
 
 const SAVED_ACCOUNTS_KEY = "vims_saved_accounts_v2";
 const LEGACY_SAVED_ACCOUNTS_KEY = "velosure_saved_accounts_v2";
@@ -222,10 +223,15 @@ export default function Login() {
 
       <section className="auth-form-panel">
         <div className="auth-form-wrap">
-          <Link to="/" className="auth-mobile-logo">
-            <span className="auth-logo-icon">V</span>
-            VIMS
-          </Link>
+          <div className="flex items-center justify-between mb-4">
+            <Link to="/" className="auth-mobile-logo" style={{ marginBottom: 0 }}>
+              <span className="auth-logo-icon">V</span>
+              VIMS
+            </Link>
+            <div className="ml-auto">
+              <ThemeToggle size="sm" />
+            </div>
+          </div>
 
           <div className="auth-heading">
             <span className="auth-eyebrow">WELCOME BACK</span>

@@ -992,3 +992,181 @@ textarea:focus-visible {
   text-decoration: underline;
 }
 
+/* ==========================================================================
+   Dark Mode Styles for Authentication Pages (Login, Register, Verify Email)
+   ========================================================================== */
+
+.dark .auth-page {
+  background: #090e1a;
+  color: #f1f5f9;
+}
+
+.dark .auth-form-panel {
+  background: #090e1a;
+}
+
+.dark .auth-brand-panel {
+  background:
+    radial-gradient(ellipse at 10% 90%, #1e40af33, transparent 45%),
+    linear-gradient(145deg, #050a14, #0b1526 65%, #0f2038);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dark .auth-mobile-logo {
+  color: #f8fafc;
+}
+
+.dark .auth-heading h2 {
+  color: #f8fafc;
+}
+
+.dark .auth-heading > p {
+  color: #94a3b8;
+}
+
+.dark .auth-form label,
+.dark .auth-password-heading label,
+.dark .auth-field label {
+  color: #cbd5e1;
+}
+
+.dark .auth-form input,
+.dark .auth-field input,
+.dark .verify-code-inputs input {
+  background: #131d31;
+  border-color: #243552;
+  color: #f8fafc;
+}
+
+.dark .auth-form input::placeholder,
+.dark .auth-field input::placeholder {
+  color: #64748b;
+}
+
+.dark .auth-form input:focus,
+.dark .auth-field input:focus,
+.dark .verify-code-inputs input:focus {
+  border-color: #3b82f6;
+  background: #17243d;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+.dark .auth-show-password {
+  color: #94a3b8;
+}
+
+.dark .auth-show-password:hover {
+  color: #e2e8f0;
+}
+
+.dark .auth-password-heading a,
+.dark .auth-switch a,
+.dark .verify-resend-button,
+.dark .auth-new-account-btn {
+  color: #60a5fa;
+}
+
+.dark .auth-password-heading a:hover,
+.dark .auth-switch a:hover,
+.dark .verify-resend-button:hover,
+.dark .auth-new-account-btn:hover {
+  color: #93c5fd;
+}
+
+.dark .auth-switch,
+.dark .auth-back-link {
+  color: #94a3b8;
+}
+
+.dark .auth-back-link:hover {
+  color: #f1f5f9;
+}
+
+.dark .auth-remember-title {
+  color: #cbd5e1;
+}
+
+.dark .auth-remember-desc {
+  color: #64748b;
+}
+
+/* Saved Accounts & Account Cards in Dark Mode */
+.dark .auth-accounts-panel {
+  background: #10192b;
+  border-color: #1e293b;
+}
+
+.dark .auth-accounts-title {
+  color: #f1f5f9;
+}
+
+.dark .auth-accounts-hint {
+  color: #94a3b8;
+}
+
+.dark .auth-account-card {
+  background: #141f33;
+  border-color: #24344d;
+}
+
+.dark .auth-account-card:hover {
+  background: #1b2942;
+  border-color: #3b82f6;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+.dark .auth-account-card.is-active {
+  background: #162c4c;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+.dark .auth-account-name {
+  color: #f8fafc;
+}
+
+.dark .auth-account-email {
+  color: #94a3b8;
+}
+
+.dark .auth-account-role-tag {
+  background: #24344d;
+  color: #cbd5e1;
+}
+
+.dark .auth-account-role-tag.admin {
+  background: #3b1d6e;
+  color: #c4b5fd;
+}
+
+.dark .auth-account-selected-pill {
+  background: #064e3b;
+  color: #6ee7b7;
+}
+
+.dark .auth-account-remove-btn {
+  color: #64748b;
+}
+
+.dark .auth-account-remove-btn:hover {
+  background: #450a0a;
+  color: #f87171;
+}
+
+.dark .auth-saved-account-card {
+  background: #10192b;
+  border-color: #1e293b;
+}
+
+.dark .auth-saved-account-email {
+  color: #f1f5f9;
+}
+
+.dark .auth-saved-account-switch {
+  color: #60a5fa;
+}
+
+.dark .auth-saved-account-switch:hover {
+  background: #17243d;
+}
+
